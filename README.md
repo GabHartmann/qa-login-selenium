@@ -1,8 +1,19 @@
 # QA Login Showcase
 
-A simple login page built with HTML, CSS and JavaScript. The purpose of this project is to practice automated testing with Selenium WebDriver using JavaScript.
+A login page built with HTML, CSS and JavaScript. The purpose of this project is to practice automated testing with Selenium WebDriver using JavaScript.
 
-The login page runs in the browser and uses SHA-256 password hashing via the native browser crypto API. There is no backend.
+The project has a sign in page and a registration page. Passwords are hashed with SHA-256 using the native browser crypto API. There is no backend.
+
+## Project files
+
+    index.html        sign in page
+    register.html     registration page
+    script.js         login logic
+    register.js       registration logic
+    hash.js           shared SHA-256 hashing functions
+    style.css         styling for both pages
+    tests/
+        test_login.js     Selenium test suite
 
 ## Requirements
 
