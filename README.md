@@ -25,11 +25,11 @@ You need a code editor with Live Server support such as Visual Studio Code.
 
 ## How to run the login page
 
-Open index.html with Live Server in Visual Studio Code. The page will be available at http://127.0.0.1:5500/qa-login-showcase/index.html
+Open index.html with Live Server in Visual Studio Code. The page will open in your browser automatically.
 
 ## How to run the tests
 
-Install the dependencies by running this command in the project folder:
+Install the dependencies by running this command in the root of the project where package.json is located:
 
     npm install
 
@@ -37,7 +37,7 @@ Run the tests with:
 
     node tests/test_login.js
 
-Make sure Live Server is running before you run the tests.
+Make sure Live Server is running before you run the tests. If your Live Server runs on a different port than 5500, update the BASE_URL at the top of tests/test_login.js to match.
 
 ## Login credentials for testing
 

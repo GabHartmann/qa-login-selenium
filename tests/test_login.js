@@ -1,6 +1,7 @@
 const { Builder, By, until } = require("selenium-webdriver")
 require("chromedriver")
 
+// Update this URL to match your Live Server port and path
 const BASE_URL = "http://127.0.0.1:5500/qa-login-showcase/index.html"
 const TIMEOUT = 5000
 
