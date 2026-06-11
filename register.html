@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Register</title>
+    <link rel='stylesheet' href='style.css'>
+</head>
+<body>
+
+    <div class="login-container">
+
+        <h1>Register</h1>
+
+        <form id="registerForm">
+
+            <label>Username</label>
+            <input type="text" id="regUsr" name="username">
+
+            <label>Password</label>
+            <input type="password" id="regSecret" name="password">
+
+            <label>Confirm Password</label>
+            <input type="password" id="regSecretConfirm" name="confirmPassword">
+
+            <button type="submit">Create Account</button>
+            <p id="regStatus"></p>
+
+            <a href="index.html">Back to Sign in</a>
+
+        </form>
+
+    </div>
+
+    <script src="hash.js"></script>
+    <script src="register.js"></script>
+</body>
+</html>

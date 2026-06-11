@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Login</title>
+    <link rel='stylesheet' href='style.css'>
+</head>
+<body>
+
+    <div class="login-container">
+
+        <h1>Sign in</h1>
+
+        <form action="/login" method="POST" id="logon">
+
+            <label>Username</label>
+            <input type="text" id="usr" name="username">
+
+            <label>Password</label>
+            <input type="password" id="secret" name="password">
+
+
+
+            <button type="submit">Login</button>
+            <p id="status"></p> 
+
+
+            <a href="/forgot-password">Forgot your password?</a>
+            <a href="register.html">Create an account</a>
+
+        </form>
+
+    </div>
+    <script src="hash.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
